@@ -14,7 +14,7 @@
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
-  <title>Responsive gym website - Bedimcode</title>
+  <title>BEROTOT - Gym Website</title>
 </head>
 
 <body>
@@ -36,6 +36,7 @@
   $sql2 = "SELECT * FROM prices";
   $result2 = $conn->query($sql2);
   ?>
+
   <!--==================== HEADER ====================-->
   <header class="header" id="header">
     <nav class="nav container">
@@ -76,6 +77,7 @@
 
   <!--==================== MAIN ====================-->
   <main class="main">
+
     <!--==================== HOME ====================-->
     <section class="home section" id="home">
       <div class="home__container container grid">
@@ -198,7 +200,7 @@
           <h2 class="section__subtitle">Pricing</h2>
           <div class="section__titles">
             <h1 class="section__title-border">OUR</h1>
-            <h1 class="setion__title">SPECIAL PLAN</h1>
+            <h1 class="section__title">SPECIAL PLAN</h1>
           </div>
         </div>
 
@@ -273,7 +275,7 @@
             </div>
 
             <button onclick="calculateBmi()" class="button button__flex">
-              calculate now <i class="ri-arrow-right-line"></i>
+              Calculate Now <i class="ri-arrow-right-line"></i>
             </button>
           </div>
 
@@ -305,57 +307,59 @@
         <p class="footer__message" id="contact-message"></p>
       </div>
 
-      <div class="footer__content">
+      <div class="footer__links_groups">
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">SERVICES</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Flex Muscle</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Cardio Exercise</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Basic Yoga</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Weight Lifting</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div>
-          <h3 class="footer__title">SERVICES</h3>
+          <h3 class="footer__title">PRICING</h3>
           <ul class="footer__links">
             <li>
-              <a href="#" class="footer__link">Flex Muscle</a>
+              <a href="#" class="footer__link">Basic</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Cardio Exercise</a>
+              <a href="#" class="footer__link">Premium</a>
             </li>
             <li>
-              <a href="#" class="footer__link">Basic Yoga</a>
-            </li>
-            <li>
-              <a href="#" class="footer__link">Weight Lifting</a>
+              <a href="#" class="footer__link">Diamond</a>
             </li>
           </ul>
         </div>
-      </div>
 
-      <div>
-        <h3 class="footer__title">PRICING</h3>
-        <ul class="footer__links">
-          <li>
-            <a href="#" class="footer__link">Basic</a>
-          </li>
-          <li>
-            <a href="#" class="footer__link">Premium</a>
-          </li>
-          <li>
-            <a href="#" class="footer__link">Diamond</a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="footer__title">COMPANY</h3>
-        <ul class="footer__links">
-          <li>
-            <a href="#" class="footer__link">About Us</a>
-          </li>
-          <li>
-            <a href="#" class="footer__link">Careers</a>
-          </li>
-          <li>
-            <a href="#" class="footer__link">Customers</a>
-          </li>
-          <li>
-            <a href="#" class="footer__link">Partners</a>
-          </li>
-        </ul>
+        <div>
+          <h3 class="footer__title">COMPANY</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Customers</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Partners</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -383,6 +387,7 @@
   <a href="#" class="scrollup" id="scroll-up">
     <i class="ri-arrow-up-fill"></i>
   </a>
+
   <!--=============== SCROLLREVEAL ===============-->
   <script src="assets/js/scrollreveal.min.js"></script>
 
