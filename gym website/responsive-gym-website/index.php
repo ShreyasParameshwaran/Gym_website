@@ -290,13 +290,12 @@
   <!--==================== FOOTER ====================-->
   <footer class="footer section" id="footer">
     <div class="footer__container container grid">
-      <div>
+      <div class="footer__contents">
         <a href="#" class="footer__logo">
           <img src="assets/img/logo-nav.png" alt="" />BEROTOT
         </a>
         <p class="footer__description">
-          Subscribe for company <br />
-          updates below.
+          Subscribe for company news and updates below.
         </p>
 
         <form action="" class="footer__form" id="contact-form">
