@@ -97,7 +97,7 @@ const calculateBmi = () => {
       calculateMessage.textContent = `Your BMI is ${bmi} and you are healthy`;
     } else {
       calculateMessage.classList.add("color-green");
-      calculateMessage.textContent = `Your BMI is ${bmi} and you are overwweight`;
+      calculateMessage.textContent = `Your BMI is ${bmi} and you are overweight`;
     }
 
     //to clear the input field
@@ -105,14 +105,13 @@ const calculateBmi = () => {
     calculateKg.value = "";
 
     //remove message in four seconds
-
     setTimeout(() => {
       calculateMessage.textContent = "";
-    }, 4000);
+    }, 6000);
   }
+  calculateForm.addEventListener("submit", calculateBmi);
+
+  calculateForm.addEventListener("submit", calculateBmi);
 };
 
-calculateForm.addEventListener("submit", calculateBmi);
-
-calculateForm.addEventListener("submit", calculateBmi);
 /*=============== EMAIL JS ===============*/
