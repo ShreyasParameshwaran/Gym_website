@@ -712,13 +712,14 @@ img {
 }
 
 .calculate__img {
+  margin-top: 1rem;
   width: 200px;
   justify-self: center;
 }
 
-.calculate__messae {
-  position: absolute;
-  transform: translateY(1rem);
+.calculate__message {
+  text-align: center;
+  margin-top: 1em;
 }
 
 /*=============== FOOTER ===============*/
@@ -755,11 +756,25 @@ img {
 }
 
 .footer__form {
+  width: 100%;
   flex-direction: column;
   gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__input {
+  width: 60%;
   padding: 20px 56px 20px 24px;
   border: 2px solid var(--first-color-light);
   background: transparent;
@@ -799,6 +814,10 @@ img {
 
 .footer__link:hover {
   color: var(--first-color);
+}
+
+.footer__form .button {
+  width: 60%;
 }
 
 .footer__group {
