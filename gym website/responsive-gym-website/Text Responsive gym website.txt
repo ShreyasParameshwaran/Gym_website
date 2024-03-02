@@ -1,3 +1,35 @@
+========== SQL QUERIES ==========
+CREATE DATABASE gym;
+USE gym;
+
+CREATE TABLE `prices` (
+  `image` varchar(30),
+  `name` varchar(30) PRIMARY KEY,
+  `price` varchar(30),
+  `opacity1` tinyint(1),
+  `opacity2` tinyint(1),
+  `opacity3` tinyint(1),
+  `opacity4` tinyint(1),
+  `opacity5` tinyint(1)
+);
+INSERT INTO `prices` (`image`, `name`, `price`, `opacity1`, `opacity2`, `opacity3`, `opacity4`, `opacity5`) VALUES
+('pricing1.png', 'BASIC PACKAGE', '200 rs', 1, 1, 0, 0, 0),
+('pricing3.png', 'DIAMOND PACKAGE', '1000 rs', 1, 1, 1, 0, 0),
+('pricing2.png', 'PREMIUM PACKAGE', '2000 rs', 1, 1, 1, 1, 1);
+
+CREATE TABLE `programs` (
+  `image` varchar(30),
+  `title` varchar(30) PRIMARY KEY,
+  `description` longtext
+)
+INSERT INTO `programs` (`image`, `title`, `description`) VALUES
+('program3.png', 'Basic Yoga', 'Diaphragmatic this is the most common breathing technique you&apos;ll find in yoga.'),
+('program2.png', 'Cardio Exercise', 'Exercise your heart rate up and keeps it up for a prolonged period of time.'),
+('program1.png', 'Flex Muscle', 'Creating tension that&apos;s temporarily making the muscle fibers smaller or contracted.'),
+('program4.png', 'Weight Lifting', 'Attempts a maximum weight single lift of a barbell loaded with weight plates.');
+
+
+
 ========== HEADER ==========
 .nav__logo
 BEROTOT
