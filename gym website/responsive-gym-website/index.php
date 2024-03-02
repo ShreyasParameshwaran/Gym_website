@@ -152,16 +152,18 @@
       <div class="choose__overflow">
         <div class="choose__container container grid">
           <div class="choose__content">
-            <h2 class="section__subtitle">Best Reason</h2>
-            <div class="section__titles">
-              <h1 class="section__title-border">WHY</h1>
-              <h1 class="section__title">CHOOSE US?</h1>
-            </div>
+            <div class="section__data">
 
-            <p class="choose__description">
-              Choose your favorite class and start now. Remember the only bad
-              workout is the one you didn't do.
-            </p>
+              <h2 class="section__subtitle">Best Reason</h2>
+              <div class="section__titles">
+                <h1 class="section__title-border">WHY</h1>
+                <h1 class="section__title">CHOOSE US?</h1>
+              </div>
+              <p class="choose__description">
+                Choose your favorite class and start now. Remember the only bad
+                workout is the one you didn't do.
+              </p>
+            </div>
 
             <div class="choose__data">
               <div class="choose__gorup">
