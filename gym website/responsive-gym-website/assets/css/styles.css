@@ -161,6 +161,18 @@ img {
   color: var(--first-color);
 }
 
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: var(--z-tooltip);
+  background-color: var(--first-color);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
 /*=============== HEADER & NAV ===============*/
 
 .header {
@@ -171,7 +183,6 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   transition: background 0.3s;
-  /* gap: 200px; */
 }
 
 .nav {
@@ -211,7 +222,8 @@ img {
     --webkit-backdrop-filter: blur(32px);
     top: 0;
     right: -100%;
-    width: 80%;
+    width: 100%;
+    max-width: 300px;
     height: 100%;
     border-left: 2px solid var(--first-color-gray);
     transition: right 0.3s;
@@ -225,13 +237,7 @@ img {
   row-gap: 2.5rem;
 }
 
-@media (min-width: 768px) {
-  .nav__menu {
-    width: 50%;
-  }
-}
-
-@media (min-width: 768px) {
+@media (min-width: 1023px) {
   .nav__list {
     width: 100%;
     padding: 0px;
@@ -265,13 +271,13 @@ img {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1023px) {
   .nav__close {
-    visibility: hidden;
+    display: none;
   }
 
   .nav__toggle {
-    visibility: hidden;
+    display: none;
   }
 
   .nav__menu {
@@ -316,11 +322,13 @@ img {
 .home {
   position: relative;
   padding-bottom: 0;
+  height: 100%;
 }
 
 .home__container {
-  padding-top: 4rem;
   row-gap: 3rem;
+  min-height: 90dvh;
+  height: 100%;
 }
 
 .home__data {
@@ -375,7 +383,7 @@ img {
   display: block;
   position: relative;
   z-index: 1;
-  width: 350px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -852,6 +860,13 @@ img {
 .footer__message {
   position: absolute;
   transform: translateY(1rem);
+}
+
+@media screen and (max-width: 400px) {
+  .footer__links_groups {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
 }
 
 /*=============== SCROLL BAR ===============*/
