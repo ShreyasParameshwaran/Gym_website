@@ -14,7 +14,7 @@
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
-  <title>BEROTOT - Gym Website</title>
+  <title>FitFreak - Gym Website</title>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
   <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav__logo">
-        <img src="assets/img/logo-nav.png" alt="logo" />BEROTOT
+        <img src="assets/img/logo-nav.png" alt="logo" />FitFreak
       </a>
 
       <div class="nav__menu" id="nav-menu">
@@ -152,18 +152,16 @@
       <div class="choose__overflow">
         <div class="choose__container container grid">
           <div class="choose__content">
-            <div class="section__data">
-
-              <h2 class="section__subtitle">Best Reason</h2>
-              <div class="section__titles">
-                <h1 class="section__title-border">WHY</h1>
-                <h1 class="section__title">CHOOSE US?</h1>
-              </div>
-              <p class="choose__description">
-                Choose your favorite class and start now. Remember the only bad
-                workout is the one you didn't do.
-              </p>
+            <h2 class="section__subtitle">Best Reason</h2>
+            <div class="section__titles">
+              <h1 class="section__title-border">WHY</h1>
+              <h1 class="section__title">CHOOSE US?</h1>
             </div>
+
+            <p class="choose__description">
+              Choose your favorite class and start now. Remember the only bad
+              workout is the one you didn't do.
+            </p>
 
             <div class="choose__data">
               <div class="choose__gorup">
@@ -294,7 +292,7 @@
     <div class="footer__container container grid">
       <div class="footer__contents">
         <a href="#" class="footer__logo">
-          <img src="assets/img/logo-nav.png" alt="" />BEROTOT
+          <img src="assets/img/logo-nav.png" alt="" />FitFreak
         </a>
         <p class="footer__description">
           Subscribe for company news and updates below.
